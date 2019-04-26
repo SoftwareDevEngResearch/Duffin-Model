@@ -5,5 +5,4 @@ python:
 install:
     - pip install -r requirements.txt
 script:
-    - pytest -vv Test_Functions.py --cov=./;
-
+    - pytest Test_Functions.py
